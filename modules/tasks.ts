@@ -26,7 +26,7 @@ export const get_token = async (task_name:string) => {
         tasks_config.token = data.token;
         return data.token;
     } catch (error) {
-        console.error("Error fetching data:", error);
+        console.error("Error fetching token:", error);
         return null;
     }
 }
@@ -42,7 +42,7 @@ export const get_task_data = async (token = tasks_config.token) => {
         console.log("get_task_data data: ", data)
         return data;
     } catch (error) {
-        console.error("Error fetching data:", error);
+        console.error("Error fetching task data:", error);
         return null;
     }
 }
@@ -65,7 +65,7 @@ export const get_task_data_using_question = async (token = tasks_config.token, q
         console.log("get_task_data_using_question data: ", data)
         return data;
     } catch (error) {
-        console.error("Error fetching data:", error);
+        console.error("Error fetching task data using question:", error);
         return null;
     }
 }
@@ -91,7 +91,7 @@ export const send_answer = async (answer:any, token = tasks_config.token) => {
         console.log("send_answer data: ", data)
         return data;
     } catch (error) {
-        console.error("Error fetching data:", error);
+        console.error("Error when sending data:", error);
         return null;
     }
 }
