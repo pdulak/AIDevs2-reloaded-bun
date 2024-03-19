@@ -47,29 +47,6 @@ export const get_task_data = async (token = tasks_config.token) => {
     }
 }
 
-export const get_task_data_using_question = async (token = tasks_config.token, question:string) => {
-    try {
-        const formData  = new FormData();
-        formData.append("question", question);
-
-        const response = await fetch(`${tasks_config.url}task/${token}`, {
-            method: "POST",
-            body: formData
-        })
-
-        if (!response.ok) {
-            throw new Error(`HTTP error ${response.status}`);
-        }
-
-        const data = await response.json();
-        console.log("get_task_data_using_question data: ", data)
-        return data;
-    } catch (error) {
-        console.error("Error fetching task data using question:", error);
-        return null;
-    }
-}
-
 export const get_token_and_task_data = async (task_name:string) => {
     await get_token(task_name)
     return await get_task_data()
