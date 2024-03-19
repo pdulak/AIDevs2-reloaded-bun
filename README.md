@@ -14,11 +14,4 @@ Set of solutions to tasks on AIDevs2 - Reloaded course
 
 - run `bun 01' to run task 1 and so on...
 
-## Chroma
-
-To use Chroma, you have to install it and run as a service:
-
-`pip install chromadb`
-
-`chroma run --path /db_path`
 

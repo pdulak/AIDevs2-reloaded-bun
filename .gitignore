@@ -179,3 +179,4 @@ downloads
 /chroma.log
 /chroma/
 *.bak
+*.code-workspace
