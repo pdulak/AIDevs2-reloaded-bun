@@ -4,7 +4,10 @@
   "type": "module",
   "scripts": {
     "00": "bun 00_test/00.ts",
-    "01": "bun 01_helloapi/01.ts"
+    "01": "bun 01_helloapi/01.ts",
+    "02": "bun 02_get_openai_models/02.ts",
+    "03": "bun 03_moderation/03.ts",
+    "04": "bun 04_blogger/04.ts"
   },
   "devDependencies": {
     "bun-types": "latest"
