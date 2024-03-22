@@ -19,7 +19,7 @@ Assistant Answer: NO
 
 ###
 
-It is crucial to respond ony with one word: "YES" or "NO", no new lines, no explanations, ony the word itself.
+It is crucial to respond only with one word: "YES" or "NO", no new lines, no explanations, ony the word itself.
 `;
 
 const humanTemplate = `
