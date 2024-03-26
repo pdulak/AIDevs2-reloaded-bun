@@ -8,7 +8,8 @@
     "02": "bun 02_get_openai_models/02.ts",
     "03": "bun 03_moderation/03.ts",
     "04": "bun 04_blogger/04.ts",
-    "05": "bun 05_liar/05.ts"
+    "05": "bun 05_liar/05.ts",
+    "06": "bun 06_inprompt/06.ts"
   },
   "devDependencies": {
     "bun-types": "latest"
