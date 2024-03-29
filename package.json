@@ -12,7 +12,8 @@
     "06": "bun 06_inprompt/06.ts",
     "07": "bun 07_embedding/07.ts",
     "08": "bun 08_whisper/08.ts",
-    "09": "bun 09_functions/09.ts"
+    "09": "bun 09_functions/09.ts",
+    "10": "bun 10_rodo/10.ts"
   },
   "devDependencies": {
     "bun-types": "latest"
