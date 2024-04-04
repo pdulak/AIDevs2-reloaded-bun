@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+  qdrant-api:
+    container_name: qdrant-api-15-search
+    image: generall/qdrant
+    ports:
+      - "6333:6333"
