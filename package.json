@@ -15,7 +15,9 @@
     "09": "bun 09_functions/09.ts",
     "10": "bun 10_rodo/10.ts",
     "11": "bun 11_scraper/11.ts",
-    "12": "bun 12_whoami/12.ts"
+    "12": "bun 12_whoami/12.ts",
+    "13": "bun 13_search/13.ts",
+    "14": "bun 14_search_chroma/14.ts"
   },
   "devDependencies": {
     "bun-types": "latest"
