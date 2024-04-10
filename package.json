@@ -21,7 +21,8 @@
     "15": "bun 15_search_docker_qdrant/15.ts",
     "16": "bun 16_people/16.ts",
     "17": "bun 17_knowledge/17.ts",
-    "18": "bun 18_tools/18.ts"
+    "18": "bun 18_tools/18.ts",
+    "19": "bun 19_gnome/19.ts"
   },
   "devDependencies": {
     "bun-types": "latest"
