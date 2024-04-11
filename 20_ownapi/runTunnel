@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "Starting SSH Tunnel"
+ssh -N -T -M tunnel3034
