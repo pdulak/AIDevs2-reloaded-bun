@@ -23,7 +23,8 @@
     "17": "bun 17_knowledge/17.ts",
     "18": "bun 18_tools/18.ts",
     "19": "bun 19_gnome/19.ts",
-    "20": "bun 20_ownapi/20.ts"
+    "20": "bun 20_ownapi/20.ts",
+    "20pro": "bun 20_ownapipro/20.ts"
   },
   "devDependencies": {
     "bun-types": "latest"
