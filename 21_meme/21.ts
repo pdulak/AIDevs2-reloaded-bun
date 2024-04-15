@@ -1,7 +1,4 @@
 import {get_token_and_task_data, send_answer} from "../modules/tasks";
-import OpenAI from "openai";
-import express from "express";
-
 
 async function main() {
     const data = await get_token_and_task_data("meme");
