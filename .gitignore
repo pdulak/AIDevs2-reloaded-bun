@@ -180,3 +180,4 @@ downloads
 /chroma/
 *.bak
 *.code-workspace
+optimized*.json
