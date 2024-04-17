@@ -26,7 +26,8 @@
     "20": "bun 20_ownapi/20.ts",
     "20pro": "bun 20_ownapipro/20.ts",
     "21": "bun 21_meme/21.ts",
-    "22": "bun 22_optimaldb/22.ts"
+    "22": "bun 22_optimaldb/22.ts",
+    "23": "bun 23_google/23.ts"
   },
   "devDependencies": {
     "bun-types": "latest"
